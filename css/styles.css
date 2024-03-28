@@ -335,6 +335,10 @@ main{
 
 /* Why Choose Us container styles  */
 
+.choose-us-container{
+    margin-bottom: 3rem;
+}
+
 .choose-us-content{
     text-align: center;
 }
@@ -386,3 +390,5 @@ main{
     padding: 2rem;
     box-shadow: 0px 0px 10px 1px #E9444433;
 }
+
+/* Deals & Discounts container styles  */
