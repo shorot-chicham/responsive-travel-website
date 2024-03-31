@@ -1,0 +1,131 @@
+/* Responsive for small devices  */
+@media screen and (max-width: 640px) {
+    .space {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .all-tabs {
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .popular-tours-container {
+        flex-direction: column;
+    }
+
+    .choose-destination {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .maldives {
+        grid-column: 1 / span 4;
+    }
+
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        grid-column: span 4;
+    }
+
+    .popular-tours-image img {
+        width: 100%;
+    }
+
+    .our-services {
+        grid-template-columns: auto;
+    }
+
+    .discount1-info {
+        width: 95%;
+    }
+
+    .discount1,
+    .discount2,
+    .discount3 {
+        justify-content: center;
+        min-width: 300px;
+    }
+
+    .choose-destination img {
+        width: 90%;
+    }
+
+    .perfect-place-img img {
+        width: 100%;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .save-up {
+        bottom: 30%;
+        right: 10%;
+    }
+
+    .perfect-place-container {
+        flex-direction: column;
+    }
+    .footer-desc{
+        width: 90%;
+    }
+    .service3,
+    .service1,
+    .service2 {
+        grid-column: auto;
+        width: 70%;
+        margin: auto;
+    }
+
+    .banner-title {
+        font-size: 1rem;
+    }
+
+    select,
+    .input-section input {
+        width: 80%;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .banner-btn {
+        width: 90%;
+        padding: 1rem;
+        margin: 0.5rem auto;
+    }
+
+    .banner-container {
+        padding: 1rem;
+    }
+
+    .input-section {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+/* Responsive for medium devices  */
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .space {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}

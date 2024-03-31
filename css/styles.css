@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 .space{
     margin-left: 8%;
     margin-right: 8%;
